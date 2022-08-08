@@ -1,23 +1,29 @@
-.header-holder{
-    background-color: #fdfff5;
-}
-.header-link{
+.header-link {
     text-decoration: none;
     color: black;
 }
+
 .header-link:hover {
-  color: black;
+    color: black;
 }
-.main{
+
+.main {
     background-color: #fdfff5;
     height: 100vh;
 }
-.banner{
+
+.banner {
     width: 100%;
     height: calc(100% - 68px);
-    background-color: #fdfff5;
     position: relative;
 }
-.text-box{
+
+.text-box {
     padding-top: 150px;
+    margin-left: 100px;
+}
+
+.start-text {
+    color: #1cac78;
+    font-size: 480%;
 }
