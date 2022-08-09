@@ -135,7 +135,10 @@ nav ul {
 }
 
 .stuff-list li {
-	margin-bottom: 100px;
+	margin-bottom: 80px;
+}
+.stuff-list li:last-child {
+	margin-bottom: 140px;
 }
 
 .block-name-stuff {
