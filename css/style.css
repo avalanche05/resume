@@ -11,9 +11,19 @@
 	}
 }
 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 a {
 	text-decoration: none !important;
 	color: currentColor !important;
+}
+
+ul {
+	list-style: none;
+	padding: inherit !important;
+	margin: inherit !important;
 }
 
 header {
@@ -35,7 +45,7 @@ header {
 	animation-delay: 0.2s;
 }
 
-.nav {
+nav ul {
 	display: flex;
 }
 
@@ -57,7 +67,7 @@ header {
 	text-decoration: underline;
 }
 
-.main {
+.banner-box {
 	background-color: #fdfff5;
 	height: 100vh;
 	font-family: "Montserrat";
@@ -70,9 +80,12 @@ header {
 }
 
 .text-box {
-	padding-top: 150px;
 	width: 1250px;
+}
+
+.banner .text-box {
 	margin-bottom: 100px;
+	padding-top: 150px;
 }
 
 .start-text {
@@ -98,6 +111,7 @@ header {
 	font-weight: 500;
 	font-size: 25px;
 	transition: 0.4s;
+	border-radius: 4px;
 }
 
 .email-button:hover {
@@ -119,6 +133,14 @@ header {
 	padding: 50px 0;
 }
 
+.stuff-list li {
+	margin-bottom: 200px;
+}
+
+.stuff-list li:last-child {
+	margin-bottom: 0;
+}
+
 .block-name-stuff {
 	text-transform: uppercase;
 	font-family: "Montserrat";
@@ -126,6 +148,22 @@ header {
 	font-size: 26px;
 	font-weight: 600;
 	letter-spacing: 5px;
+	margin-bottom: 30px;
+}
+
+.work-name {
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.work-info {
+	margin-top: 40px;
+	font-size: 26px;
+}
+
+.work-desc {
+	margin-top: 40px;
+	font-size: 26px;
 }
 
 /* Animations */
