@@ -22,8 +22,8 @@ a {
 
 ul {
 	list-style: none;
-	padding: inherit !important;
-	margin: inherit !important;
+	padding: initial !important;
+	margin: initial !important;
 }
 
 header {
@@ -81,6 +81,7 @@ nav ul {
 
 .text-box {
 	width: 1250px;
+	position: relative;
 }
 
 .banner .text-box {
@@ -134,11 +135,7 @@ nav ul {
 }
 
 .stuff-list li {
-	margin-bottom: 200px;
-}
-
-.stuff-list li:last-child {
-	margin-bottom: 0;
+	margin-bottom: 100px;
 }
 
 .block-name-stuff {
@@ -151,12 +148,12 @@ nav ul {
 	margin-bottom: 30px;
 }
 
-.work-name {
+.stuff-name {
 	font-weight: 700;
 	font-size: 50px;
 }
 
-.work-info {
+.stuff-info {
 	margin-top: 40px;
 	font-size: 26px;
 }
@@ -164,6 +161,32 @@ nav ul {
 .work-desc {
 	margin-top: 40px;
 	font-size: 26px;
+}
+
+.education-info {
+	width: 700px;
+}
+
+.contacts {
+	background-color: #fdfff5;
+}
+
+.contacts .container {
+	padding: 80px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.socials {
+	display: flex;
+	align-items: center;
+}
+
+.socials li {
+	margin-right: 30px;
+}
+.socials li:last-child {
+	margin-right: 0;
 }
 
 /* Animations */
