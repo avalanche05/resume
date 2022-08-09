@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 .header-link {
     text-decoration: none;
     color: black;
@@ -10,6 +12,7 @@
 .main {
     background-color: #fdfff5;
     height: 100vh;
+		font-family: 'Montserrat';
 }
 
 .banner {
@@ -25,5 +28,6 @@
 
 .start-text {
     color: #1cac78;
-    font-size: 480%;
+    font-size: 100px;
+		font-weight: bold;
 }
