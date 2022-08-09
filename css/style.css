@@ -131,7 +131,7 @@ nav ul {
 }
 
 .stuff .container {
-	padding: 50px 0;
+	padding: 80px 0 100px 0;
 }
 
 .stuff-list li {
@@ -148,7 +148,7 @@ nav ul {
 	font-size: 26px;
 	font-weight: 600;
 	letter-spacing: 5px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .stuff-name {
