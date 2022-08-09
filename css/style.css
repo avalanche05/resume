@@ -1,16 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
-@media (min-width: 1500px) {
-	.container,
-	.container-lg,
-	.container-md,
-	.container-sm,
-	.container-xl,
-	.container-xxl {
-		max-width: 1540px !important;
-	}
-}
-
 body {
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -31,11 +20,11 @@ header {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	height: 100px;
+	height: 80px;
 }
 
 .logo {
-	font-size: 32px;
+	font-size: 28px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -50,7 +39,7 @@ nav ul {
 }
 
 .nav-item {
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: 500;
 	margin-right: 30px;
 	animation: showElementTop 0.8s ease normal both;
@@ -80,29 +69,31 @@ nav ul {
 }
 
 .text-box {
-	width: 1250px;
+	width: 1100px;
 	position: relative;
 }
 
 .banner .text-box {
 	margin-bottom: 100px;
-	padding-top: 150px;
+	padding-top: 140px;
 }
 
 .start-text {
 	color: #1cac78;
-	font-size: 94px;
+	font-size: 80px;
 	font-weight: bold;
 	animation: showElementTop 0.8s ease normal both;
 	animation-delay: 0.4s;
+	line-height: 100px;
 }
 
 .person-desc {
-	font-size: 22px;
+	font-size: 18px;
 	font-family: Arial, Helvetica, sans-serif;
-	margin-top: 80px;
+	margin-top: 60px;
 	animation: showElementTop 0.8s ease normal both;
 	animation-delay: 0.6s;
+	opacity: 0.8;
 }
 
 .email-button {
@@ -131,7 +122,7 @@ nav ul {
 }
 
 .stuff .container {
-	padding: 80px 0 100px 0;
+	padding: 60px 0 80px 0;
 }
 
 .stuff-list li {
@@ -145,7 +136,7 @@ nav ul {
 	text-transform: uppercase;
 	font-family: "Montserrat";
 	color: #116a4a;
-	font-size: 26px;
+	font-size: 22px;
 	font-weight: 600;
 	letter-spacing: 5px;
 	margin-bottom: 20px;
@@ -153,17 +144,16 @@ nav ul {
 
 .stuff-name {
 	font-weight: 700;
-	font-size: 50px;
 }
 
 .stuff-info {
 	margin-top: 40px;
-	font-size: 26px;
+	font-size: 22px;
 }
 
 .work-desc {
 	margin-top: 40px;
-	font-size: 26px;
+	font-size: 22px;
 }
 
 .education-info {
@@ -172,6 +162,10 @@ nav ul {
 
 .contacts {
 	background-color: #fdfff5;
+}
+
+.contacts-title {
+	font-weight: 700;
 }
 
 .contacts .container {
