@@ -24,9 +24,8 @@ header {
 }
 
 .logo {
-	font-size: 28px;
+	font-size: 24px;
 	font-weight: 600;
-	text-transform: uppercase;
 }
 
 .logo-link {
@@ -86,6 +85,10 @@ nav ul {
 	animation-delay: 0.4s;
 	line-height: 100px;
 }
+h5 {
+	animation: showElementTop 0.8s ease normal both;
+	animation-delay: 0.4s;
+}
 
 .person-desc {
 	font-size: 18px;
@@ -94,25 +97,6 @@ nav ul {
 	animation: showElementTop 0.8s ease normal both;
 	animation-delay: 0.6s;
 	opacity: 0.8;
-}
-
-.email-button {
-	padding: 15px 25px;
-	background-color: #1cac78;
-	color: white;
-	font-weight: 500;
-	font-size: 25px;
-	transition: 0.4s;
-	border-radius: 4px;
-}
-
-.email-button:hover {
-	background-color: #116a4a;
-}
-
-.email-link {
-	animation: showElementTop 0.8s ease normal both;
-	animation-delay: 0.8s;
 }
 
 .stuff {
