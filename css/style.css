@@ -9,6 +9,12 @@ a {
 	color: currentColor !important;
 }
 
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 ul {
 	list-style: none;
 	padding: initial !important;
